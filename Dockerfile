@@ -1,5 +1,7 @@
 FROM python:3-alpine
 
+ARG PYTHON_VERSION=3.13
+
 RUN pip install --upgrade pip
 RUN pip3 install instaloader==4.14.1
 
